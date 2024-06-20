@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlobStorage", "BlobStorage", "{60940F86-7656-4DE2-B2DD-5387D7AFFAA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureStorage", "AzureStorage", "{DDEA9B2C-1663-426C-B64B-A153AF346C9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CosmosDB", "CosmosDB", "{A5A45B92-4EC0-4267-B21D-9848916313AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobUploader", "AzureStorage\BlobStorage\BlobUploader\BlobUploader.csproj", "{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60940F86-7656-4DE2-B2DD-5387D7AFFAA4} = {DDEA9B2C-1663-426C-B64B-A153AF346C9C}
+		{A5A45B92-4EC0-4267-B21D-9848916313AE} = {DDEA9B2C-1663-426C-B64B-A153AF346C9C}
+		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB} = {60940F86-7656-4DE2-B2DD-5387D7AFFAA4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3355A104-FB5A-4CFB-9775-91FCBCB0CC3A}
+	EndGlobalSection
+EndGlobal

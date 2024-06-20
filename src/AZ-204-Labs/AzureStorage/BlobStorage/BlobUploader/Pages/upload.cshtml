@@ -1,0 +1,15 @@
+﻿@page
+@model BlobUploader.Pages.uploadModel
+@{
+}
+
+<h1 id="upload-title" class="display-5">Upload Blob</h1>
+<br />
+<form method="post" enctype="multipart/form-data">
+    <input type="file" asp-for="FormFile" />
+    <br />
+    <input type="checkbox" asp-for="OverwriteIfExists" />Overwrite if exists
+    <br />
+    <br />
+    <input type="submit" class="btn btn-primary" />
+</form>

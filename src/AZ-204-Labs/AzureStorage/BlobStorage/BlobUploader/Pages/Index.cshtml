@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <h1 class="display-5">Blobs in Storage</h1>
+    <a class="btn btn-primary" href="upload">Upload new Blob</a>
+    <br />
+    <br />
+    @if (Model != null && Model.uploadedBlobNames != null && Model.uploadedBlobNames?.Length > 0)
+    {
+        <ul>
+        @foreach (var item in Model.uploadedBlobNames)
+        {
+            <li>@item</li>
+        }
+        </ul>
+    }
+    else
+    {
+        <br />
+        <p>No content :(</p>
+    }
+</div>

@@ -1,0 +1,17 @@
+{
+  "name": "blobsasgenerator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "build": "webpack --mode=development"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.23.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

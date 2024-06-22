@@ -13,6 +13,6 @@ You can configure and manage Azure Storage Containers and Blobs by using command
 | az storage blob download | Download Blobs from Azure Storage to a file path. |
 | az storage blob set-tier --name <code>BlobName</code> --container-name <code>BlobContainer</code> --account-name <code>StorageAccountName</code> --tier <code>Cool</code> | Change blob tier for storing infrequently accessed/modified data |
 
-> ⚠️ You can switch between access tiers at any time, when and if your usage patterns change. The change between tiers is immediate, except when you wish to move data out of Archive.
-> Archive data is offline, therefore, the blob must first be rehydrated. The rehydration starts when we change the blob tier from Archive to either Hot or Cool.
+> ⚠️ You can switch between access tiers at any time, when and if your usage patterns change. The change between tiers is immediate, except when you wish to move data out of Archive.<br>
+> Archive data is offline, therefore, the blob must first be rehydrated. The rehydration starts when we change the blob tier from Archive to either Hot or Cool and takes hours to complete. The blob status remains as an archive until it finishes.
 

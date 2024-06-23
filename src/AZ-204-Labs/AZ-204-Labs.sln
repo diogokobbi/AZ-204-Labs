@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureStorage", "AzureStorag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CosmosDB", "CosmosDB", "{A5A45B92-4EC0-4267-B21D-9848916313AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobUploader", "AzureStorage\BlobStorage\BlobUploader\BlobUploader.csproj", "{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobUploader", "AzureStorage\BlobStorage\BlobUploader\BlobUploader.csproj", "{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleBlobManager", "AzureStorage\BlobStorage\ConsoleBlobManager\ConsoleBlobManager.csproj", "{A9C67F0E-FED5-49D7-9A76-288F66E20F44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C67F0E-FED5-49D7-9A76-288F66E20F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C67F0E-FED5-49D7-9A76-288F66E20F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C67F0E-FED5-49D7-9A76-288F66E20F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C67F0E-FED5-49D7-9A76-288F66E20F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,6 +35,7 @@ Global
 		{60940F86-7656-4DE2-B2DD-5387D7AFFAA4} = {DDEA9B2C-1663-426C-B64B-A153AF346C9C}
 		{A5A45B92-4EC0-4267-B21D-9848916313AE} = {DDEA9B2C-1663-426C-B64B-A153AF346C9C}
 		{1E8F9418-7BE9-4ED9-A50B-FF9E14DB23CB} = {60940F86-7656-4DE2-B2DD-5387D7AFFAA4}
+		{A9C67F0E-FED5-49D7-9A76-288F66E20F44} = {60940F86-7656-4DE2-B2DD-5387D7AFFAA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3355A104-FB5A-4CFB-9775-91FCBCB0CC3A}

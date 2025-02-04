@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cpf-validator", "cpf-validator.csproj", "{47F44FAB-28D0-531C-05BF-5DA28A0085A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47F44FAB-28D0-531C-05BF-5DA28A0085A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F44FAB-28D0-531C-05BF-5DA28A0085A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F44FAB-28D0-531C-05BF-5DA28A0085A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F44FAB-28D0-531C-05BF-5DA28A0085A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCEB2D88-AA5F-455D-9E9B-3B5C2074F5C5}
+	EndGlobalSection
+EndGlobal
